@@ -25,7 +25,7 @@ const Landing: React.FC = () => {
         
         {/* Bouncing Book */}
         <img 
-          src="/media/astracodex.png" 
+          src="/media/astracodex1.png" 
           alt="AstraCodex Logo" 
           className="w-48 h-48 md:w-64 md:h-64 mb-6 animate-bounce-slow transform-gpu relative z-30 hover:rotate-[5deg] transition-all duration-300 cursor-pointer drop-shadow-purple"
         />
