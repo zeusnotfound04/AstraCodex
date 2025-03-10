@@ -15,7 +15,8 @@ import {
   Building2Icon, 
   CarFront, 
   Code2, 
-  Drama as Mask
+  Drama as Mask,
+  Database
 } from 'lucide-react';
 import { categories } from '../data/categories';
 import { Category } from '../types';
@@ -37,7 +38,8 @@ const ICON_MAP = {
   building: Building2Icon,
   car: CarFront,
   code: Code2,
-  mask: Mask
+  mask: Mask,
+  database: Database
 };
 
 const CategoryItem: React.FC<{ category: Category; isNested?: boolean }> = ({ category, isNested = false }) => {
