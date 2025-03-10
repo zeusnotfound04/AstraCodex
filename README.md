@@ -20,11 +20,11 @@
 
 ## Features
 
-Curated resources categorized for easy navigation.
+- Curated resources categorized for easy navigation.
 
-Modern, responsive design with dark theme UI.
+- Modern, responsive design with dark theme UI.
 
-User-friendly interface with search functionality.
+- User-friendly interface with search functionality.
 
 ## Disclaimer
 
