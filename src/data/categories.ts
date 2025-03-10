@@ -61,6 +61,12 @@ export const categories: Category[] = [
         icon: 'database',
         description: 'Tools and resources for discovering and analyzing data breaches and leaked information.',
       },
+      {
+        id: 'game-lookup',
+        name: 'Game Recon',
+        icon: 'game',
+        description: 'Tools and resources for investigating online gaming platforms, gamer profiles, game-specific forums, and related metadata for OSINT purposes.'
+      },
     ],
   },
   {
