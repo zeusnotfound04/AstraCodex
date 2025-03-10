@@ -52,7 +52,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <BrowserRouter>
       <Routes>
         {/* Landing Page (No Sidebar Layout) */}
         <Route path="/" element={<Landing />} />
@@ -165,7 +165,7 @@ function App() {
           </div>
         } />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
