@@ -55,6 +55,12 @@ export const categories: Category[] = [
         icon: 'mask',
         description: 'Tools for creating and managing online personas, including fake identities, character bios, avatars, and ID cards.',
       },
+      {
+        id: 'data-leaks',
+        name: 'Data Breaches',
+        icon: 'database',
+        description: 'Tools and resources for discovering and analyzing data breaches and leaked information.',
+      },
     ],
   },
   {
