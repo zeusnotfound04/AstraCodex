@@ -787,6 +787,106 @@ export const resources: Resource[] = [
     tags: ["data breaches", "OSINT", "breach detection", "search"]
   },
 
+  // Game Recon
+
+
+  {
+    id: "steamid-uk",
+    title: "SteamID UK",
+    description: "Find your SteamID, Steam Profile, and related information quickly.",
+    url: "https://steamid.uk/",
+    category: "game-lookup",
+    tags: ["steam", "game", "profile search"]
+  },
+  {
+    id: "steamdb-calculator",
+    title: "SteamDB Calculator",
+    description: "Calculate the value, playtime, and other stats of your Steam account.",
+    url: "https://steamdb.info/calculator/",
+    category: "game-lookup",
+    tags: ["steam", "account value", "stats"]
+  },
+  {
+    id: "steamrep",
+    title: "SteamRep",
+    description: "Community-based reputation site tracking Steam scammers and fraudsters.",
+    url: "https://steamrep.com/",
+    category: "game-lookup",
+    tags: ["steam", "reputation", "scammers"]
+  },
+  {
+    id: "steamid-finder",
+    title: "SteamID Finder",
+    description: "Tool to find your SteamID, Steam Profile, and related identifiers.",
+    url: "https://www.steamidfinder.com/",
+    category: "game-lookup",
+    tags: ["steam", "profile search", "user lookup"]
+  },
+  {
+    id: "playerdb",
+    title: "PlayerDB",
+    description: "API for retrieving player profiles from platforms like Minecraft, Steam, and Xbox.",
+    url: "https://playerdb.co/",
+    category: "game-lookup",
+    tags: ["minecraft", "steam", "xbox", "API"]
+  },
+  {
+    id: "xboxgamertag",
+    title: "XboxGamertag",
+    description: "Search Xbox gamertags and check Xbox Live profiles and statistics.",
+    url: "https://xboxgamertag.com/",
+    category: "game-lookup",
+    tags: ["xbox", "gamertag", "profile search"]
+  },
+  {
+    id: "tracker-gg",
+    title: "Tracker.gg",
+    description: "Stats tracker and leaderboards for games like Fortnite, Apex Legends, and more.",
+    url: "https://tracker.gg/",
+    category: "game-lookup",
+    tags: ["game stats", "leaderboards", "Fortnite", "Apex Legends"]
+  },
+  {
+    id: "psnprofiles",
+    title: "PSNProfiles",
+    description: "Search PlayStation Network profiles and check trophies and achievements.",
+    url: "https://psnprofiles.com/",
+    category: "game-lookup",
+    tags: ["playstation", "PSN", "trophies", "achievements"]
+  },
+  {
+    id: "psntrophyleaders",
+    title: "PSN Trophy Leaders",
+    description: "Leaderboard showcasing top PlayStation trophy hunters worldwide.",
+    url: "https://psntrophyleaders.com/leaderboard/main",
+    category: "game-lookup",
+    tags: ["playstation", "leaderboard", "trophies"]
+  },
+  {
+    id: "fortnitetracker",
+    title: "FortniteTracker",
+    description: "Check your Fortnite stats, leaderboards, and progress with detailed insights.",
+    url: "https://fortnitetracker.com/",
+    category: "game-lookup",
+    tags: ["fortnite", "stats", "leaderboards"]
+  },
+  {
+    id: "lolprofile",
+    title: "LoL Profile",
+    description: "League of Legends profile lookup with match history and stats tracking.",
+    url: "https://lolprofile.net/",
+    category: "game-lookup",
+    tags: ["league of legends", "profile search", "stats"]
+  },
+  {
+    id: "opgg",
+    title: "OP.GG",
+    description: "Comprehensive stats tracking and analysis for League of Legends, Valorant, PUBG, and other games.",
+    url: "https://www.op.gg/",
+    category: "game-lookup",
+    tags: ["league of legends", "valorant", "pubg", "other", "stats", "analysis"]
+  },
+
 
   // Techniques
   {
@@ -820,6 +920,38 @@ export const resources: Resource[] = [
     url: "https://www.youtube.com/playlist?list=PL423I_gHbWUUOs09899rex4t2l5py9YIk",
     category: "techniques",
     tags: ["OSINT", "tips", "quick guides", "short tutorials", "playlist"]
+  },
+  {
+    id: "discord-osint",
+    title: "Deep Dive into Discord OSINT Techniques",
+    description: "An in-depth guide on using OSINT techniques for investigating Discord platforms.",
+    url: "https://medium.com/@ninamaelainine/deep-dive-into-discord-osint-techniques-00534bf69371",
+    category: "techniques",
+    tags: ["discord", "osint", "investigation"]
+  },
+  {
+    id: "child-abuse-osint",
+    title: "Fighting Child Abuse with OSINT",
+    description: "An article detailing how OSINT techniques can be used to combat child abuse online.",
+    url: "https://medium.com/@ninamaelainine/fighting-child-abuse-with-osint-dbbb38e81541",
+    category: "techniques",
+    tags: ["child abuse", "osint", "investigation"]
+  },
+  {
+    id: "reddit-osint",
+    title: "Deep Dive into Reddit OSINT Techniques",
+    description: "A comprehensive guide on leveraging OSINT techniques for Reddit investigations.",
+    url: "https://medium.com/@ninamaelainine/deep-dive-into-reddit-osint-techniques-b8070af178d0",
+    category: "techniques",
+    tags: ["reddit", "osint", "investigation"]
+  },
+  {
+    id: "snapchat-osint",
+    title: "Deep Dive into Snapchat OSINT Techniques",
+    description: "Explores OSINT techniques for gathering intelligence from Snapchat.",
+    url: "https://medium.com/@ninamaelainine/deep-dive-into-snapchat-osint-techniques-3f6bc4a06c10",
+    category: "techniques",
+    tags: ["snapchat", "osint", "investigation"]
   },
 
 
