@@ -664,6 +664,128 @@ export const resources: Resource[] = [
   },
 
 
+  // Data Breaches
+
+  {
+    id: "pentester",
+    title: "Pentester",
+    description: "Breach monitoring tool designed for penetration testers and security researchers.",
+    url: "https://pentester.com",
+    category: "data-leaks",
+    tags: ["data breach", "security research", "monitoring"]
+  },
+  {
+    id: "haveibeenpwned",
+    title: "Have I Been Pwned",
+    description: "Check if your email or phone number has been part of a data breach.",
+    url: "https://haveibeenpwned.com/",
+    category: "data-leaks",
+    tags: ["data breach", "security", "leak detection"]
+  },
+  {
+    id: "dehashed",
+    title: "DeHashed",
+    description: "Advanced search engine for breached data, leaked databases, and more.",
+    url: "https://www.dehashed.com/",
+    category: "data-leaks",
+    tags: ["data breach", "search engine", "leak detection"]
+  },
+  {
+    id: "leakpeek",
+    title: "LeakPeek",
+    description: "Find leaked information from various sources, including breached databases.",
+    url: "https://leakpeek.com/",
+    category: "data-leaks",
+    tags: ["data breach", "leak search", "security"]
+  },
+  {
+    id: "breachdirectory",
+    title: "BreachDirectory",
+    description: "Database search tool for compromised email addresses and passwords.",
+    url: "https://breachdirectory.org/",
+    category: "data-leaks",
+    tags: ["data breach", "passwords", "email search"]
+  },
+  {
+    id: "intelx",
+    title: "Intelligence X",
+    description: "Search engine for breached data, leaked files, and darknet content.",
+    url: "https://intelx.io/",
+    category: "data-leaks",
+    tags: ["data breach", "darknet", "search engine"]
+  },
+  {
+    id: "leakcheck",
+    title: "LeakCheck",
+    description: "Service for checking leaked credentials, personal information, and more.",
+    url: "https://leakcheck.io/",
+    category: "data-leaks",
+    tags: ["data breach", "credential leak", "personal data"]
+  },
+  {
+    id: "haveibeenzuckered",
+    title: "Have I Been Zuckered",
+    description: "Tool for checking if your Facebook data has been leaked online.",
+    url: "https://haveibeenzuckered.com/",
+    category: "data-leaks",
+    tags: ["data breach", "Facebook", "personal data"]
+  },
+  {
+    id: "ddosecrets",
+    title: "DDoSecrets",
+    description: "Transparency collective sharing leaked data from various sources.",
+    url: "https://ddosecrets.com/all_categories",
+    category: "data-leaks",
+    tags: ["data breach", "transparency", "leaked data"]
+  },
+  {
+    id: "darkeye",
+    title: "DarkEye",
+    description: "Search tool for discovering compromised data across multiple sources.",
+    url: "https://darkeye.org/search",
+    category: "data-leaks",
+    tags: ["data breach", "leak search", "security"]
+  },
+  {
+    id: "proxynova",
+    title: "ProxyNova",
+    description: "Tool for searching compromised combos and leaked information.",
+    url: "https://www.proxynova.com/tools/comb/",
+    category: "data-leaks",
+    tags: ["data breach", "combos", "leaked data"]
+  },
+  {
+    id: "vxintelligence",
+    title: "VX Intelligence",
+    description: "Platform providing insights into compromised data and breach analysis.",
+    url: "https://vxintelligence.com/",
+    category: "data-leaks",
+    tags: ["data breach", "intelligence", "leak analysis"]
+  },
+  {
+    id: "breachvip",
+    title: "Breach VIP",
+    description: "Service providing access to premium breached data sources.",
+    url: "https://breach.vip/",
+    category: "data-leaks",
+    tags: ["data breach", "premium service", "leak detection"]
+  },
+  {
+    id: "alertsbar",
+    title: "Alerts Bar",
+    description: "Online tool for monitoring data breaches and leaked credentials.",
+    url: "https://www.alerts.bar/",
+    category: "data-leaks",
+    tags: ["data breach", "monitoring", "leaked data"]
+  },
+  {
+    id: "osintsolutions",
+    title: "OSINT Solutions",
+    description: "Data breach search platform providing access to compromised data for OSINT investigations.",
+    url: "https://osintsolutions.org/",
+    category: "data-leaks",
+    tags: ["data breaches", "OSINT", "breach detection", "search"]
+  },
 
 
   // Techniques
@@ -718,7 +840,7 @@ export const resources: Resource[] = [
     url: "https://www.maltego.com/categories/case-studies/",
     category: "case-studies",
     tags: ["OSINT", "case studies", "Maltego", "investigation"]
- },
+  },
 
-  
+
 ];
