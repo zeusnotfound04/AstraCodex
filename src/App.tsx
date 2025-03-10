@@ -1,33 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-} from 'react-router-dom';
-import { Menu } from 'lucide-react';
-import { Sidebar } from './components/Sidebar';
-import { SearchBar } from './components/SearchBar';
-import { ThemeToggle } from './components/ThemeToggle';
-import { ResourceCard } from './components/ResourceCard';
-import { categories } from './data/categories';
-import { resources } from './data/resources';
-import { Resource, Category } from './types';
-import Landing from './components/Landing';
+} from "react-router-dom";
+import { Menu } from "lucide-react";
+import { Sidebar } from "./components/Sidebar";
+import { SearchBar } from "./components/SearchBar";
+import { ThemeToggle } from "./components/ThemeToggle";
+import { ResourceCard } from "./components/ResourceCard";
+import { categories } from "./data/categories";
+import { resources } from "./data/resources";
+import { Resource, Category } from "./types";
+import Landing from "./components/Landing";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  if (!isMounted) {
-    return null; // Render nothing until the component has mounted
-  }
 
   const handleSearchResult = (resource: Resource) => {
-    console.log('Selected resource:', resource);
+    console.log("Selected resource:", resource);
   };
 
   const findCategoryById = (id: string): Category | undefined => {
