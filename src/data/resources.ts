@@ -4,13 +4,12 @@ export const resources: Resource[] = [
   // Search Engines
 
   {
-    id: "google",
-    title: "Google",
-    description:
-      "The worlds most popular search engine, providing web, image, and news searches.",
-    url: "https://www.google.com/",
-    category: "search-engines",
-    tags: ["web", "search", "popular"],
+    id: 'udm14',
+    title: 'UDM14',
+    description: 'A tool that appends the "udm=14" parameter to Google Search URLs, delivering results without AI-generated content, ads, and additional features.',
+    url: 'https://udm14.com/',
+    category: 'search-tools',
+    tags: ['Google', 'search', 'AI-free']
   },
   {
     id: "bing",
