@@ -8,7 +8,7 @@ export const resources: Resource[] = [
     title: 'UDM14',
     description: 'A tool that appends the "udm=14" parameter to Google Search URLs, delivering results without AI-generated content, ads, and additional features.',
     url: 'https://udm14.com/',
-    category: 'search-tools',
+    category: 'search-engines',
     tags: ['Google', 'search', 'AI-free']
   },
   {
