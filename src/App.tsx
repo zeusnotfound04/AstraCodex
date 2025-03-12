@@ -13,6 +13,7 @@ import { categories } from "./data/categories";
 import { resources } from "./data/resources";
 import { Resource, Category } from "./types";
 import Landing from "./components/Landing";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
