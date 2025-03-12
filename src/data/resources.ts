@@ -12,6 +12,14 @@ export const resources: Resource[] = [
     tags: ['Google', 'search', 'AI-free']
   },
   {
+    id: 'searxng',
+    title: 'SearXNG',
+    description: 'An open-source, privacy-respecting metasearch engine that aggregates results from various search engines without storing user information.',
+    url: 'https://searx.bndkt.io/',
+    category: 'search-engines',
+    tags: ['privacy', 'metasearch', 'open-source']
+  },
+  {
     id: "bing",
     title: "Bing",
     description:
