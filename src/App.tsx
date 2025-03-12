@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Menu } from "lucide-react";
 import { Sidebar } from "./components/Sidebar";
 import { SearchBar } from "./components/SearchBar";
@@ -13,7 +9,7 @@ import { categories } from "./data/categories";
 import { resources } from "./data/resources";
 import { Resource, Category } from "./types";
 import Landing from "./components/Landing";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/react";  // Import Analytics
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -44,7 +40,6 @@ function App() {
           collectedResources = collectedResources.concat(collectResources(subcategory));
         }
       }
-
       return collectedResources;
     };
 
@@ -163,6 +158,7 @@ function App() {
                 </Routes>
               </main>
             </div>
+            <Analytics />  
           </div>
         } />
       </Routes>
