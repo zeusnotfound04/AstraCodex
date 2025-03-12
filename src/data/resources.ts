@@ -785,15 +785,7 @@ export const resources: Resource[] = [
     category: "data-leaks",
     tags: ["data breach", "monitoring", "leaked data"]
   },
-  {
-    id: "osintsolutions",
-    title: "OSINT Solutions",
-    description: "Data breach search platform providing access to compromised data for OSINT investigations.",
-    url: "https://osintsolutions.org/",
-    category: "data-leaks",
-    tags: ["data breaches", "OSINT", "breach detection", "search"]
-  },
-
+  
   // Game Recon
 
 
