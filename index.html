@@ -4,30 +4,10 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="media/astracodex.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Google AdSense Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5294800973827386"
-     crossorigin="anonymous"></script>
-     
-    <!-- Content Security Policy (CSP) -->
-    <meta http-equiv="Content-Security-Policy" content="
-      script-src 'self' 'unsafe-inline' https://pagead2.googlesyndication.com https://ep2.adtrafficquality.google;
-      style-src 'self' 'unsafe-inline';
-      img-src 'self' https://pagead2.googlesyndication.com;
-      connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google;
-      frame-src 'self' https://googleads.g.doubleclick.net https://ep2.adtrafficquality.google https://www.google.com;
-    ">
-
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://pagead2.googlesyndication.com 'unsafe-inline'; connect-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google https://ep2.adtrafficquality.google; img-src 'self' https://pagead2.googlesyndication.com https://ep1.adtrafficquality.google; frame-src 'self' https://googleads.g.doubleclick.net;">
     <title>AstraCodex</title>
-
-    <script>
-      // Theme Handler (Should be in head to apply styles early)
-      if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
-      } else {
-        document.documentElement.classList.remove('dark');
-      }
-    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5294800973827386"
+      crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="root"></div>
