@@ -290,6 +290,15 @@ export const resources: Resource[] = [
   },
 
   // Username Search
+
+  {
+    id: 'idcrawl-username-search',
+    title: 'IDCrawl',
+    description: 'A tool that uncovers social media profiles and real people behind a username across various platforms.',
+    url: 'https://www.idcrawl.com/username-search',
+    category: 'username-search',
+    tags: ['username search', 'social media', 'people search']
+  },
   {
     id: "sherlock",
     title: "Sherlock",
@@ -297,7 +306,7 @@ export const resources: Resource[] = [
       "Hunt down social media accounts by username across social networks.",
     url: "https://github.com/sherlock-project/sherlock",
     category: "username-search",
-    tags: ["username", "social-media", "python"],
+    tags: ["username", "social-media", "python", "github"],
   },
   {
     id: "maigret",
@@ -306,7 +315,7 @@ export const resources: Resource[] = [
       "Collects a dossier on a person by username from thousands of sites.",
     url: "https://github.com/soxoj/maigret",
     category: "username-search",
-    tags: ["OSINT", "username", "social-media"],
+    tags: ["OSINT", "username", "social-media", "github"],
   },
   {
     id: "whatsmyname",
@@ -332,7 +341,7 @@ export const resources: Resource[] = [
       "Username search tool that analyzes social media platforms for user profiles.",
     url: "https://github.com/p1ngul1n0/blackbird",
     category: "username-search",
-    tags: ["OSINT", "username", "social-media"],
+    tags: ["OSINT", "username", "social-media", "github"],
   },
   {
     id: "192com",
