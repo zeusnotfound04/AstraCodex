@@ -21,6 +21,8 @@ import {
 } from 'lucide-react';
 import { categories } from '../data/categories';
 import { Category } from '../types';
+import GoogleAd from './GoogleAd';
+
 
 interface SidebarProps {
   isOpen: boolean;
@@ -119,6 +121,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             ))}
           </nav>
         </div>
+          <GoogleAd  slotId="5119802020"/>
+        
       </aside>
     </>
   );
