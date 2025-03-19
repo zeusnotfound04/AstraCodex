@@ -36,8 +36,3 @@
 >
 
 
-
-## Feedback & Maintenance
-
-If you have any suggestions or feedback, feel free to create an issue. Contributions are not accepted for **AstraCodex** at this time. The website is currently maintained and updated by the owner.
-
